@@ -1,0 +1,40 @@
+#division1 {
+    border: 10px dotted black;
+    background-color: aqua;
+    padding: 20px;
+    background-clip: content-box;
+    text-align: center;
+}
+
+#division2 {
+    height: 300px;
+    border: 10px dotted black;
+    background-image: url(R.jpeg);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-clip: padding-box;
+    background-origin: border-box;
+}
+
+#division3 {
+    height: 300px;
+    text-align: center;
+    background-image: url(utube.jpeg), url(OIP.jpeg), url(RA.jpeg);
+    background-repeat: no-repeat;
+    background-size: 300px 200px, 300px 200px, 300px 200px;
+    background-position: 0px 50px, 300px 58px, 600px 50px;
+}
+
+#division4 {
+    height: 200px;
+    width: 200px;
+    border: 5px solid red;
+    margin-left: 20px;
+}
+#division4 p {
+    border: 2px solid green;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
